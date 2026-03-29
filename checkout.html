@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainy Days | Home</title>
+    <meta
+      name="description"
+      content="Durable rain jackets built for every adventure."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <header>
+        <nav class="nav">
+          <a href="index.html">
+            <img
+              src="images/RainyDays_Logo.png"
+              class="logo"
+              alt="Rainy Days Logo"
+            />
+          </a>
+
+          <div class="nav-icons">
+            <a href="cart.html" aria-label="Shopping cart">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M3 3h2l2.5 10h10l2-7H6"
+                  stroke="black"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <circle cx="9" cy="20" r="1.5" fill="black" />
+                <circle cx="17" cy="20" r="1.5" fill="black" />
+              </svg>
+            </a>
+
+            <a href="coming-soon.html" aria-label="User profile">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="8" r="4" stroke="black" stroke-width="2" />
+                <path d="M4 20c2-4 14-4 16 0" stroke="black" stroke-width="2" />
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="checkout">
+          <h1>Checkout</h1>
+
+          <div class="checkout-container">
+            <!-- LEFT SIDE -->
+            <div class="checkout-form">
+              <h2>User Information</h2>
+
+              <input type="text" placeholder="Full Name" />
+              <input type="email" placeholder="Email" />
+              <input type="text" placeholder="Address" />
+              <input type="text" placeholder="City" />
+
+              <h2>Payment Details</h2>
+
+              <input type="text" placeholder="Card Number" />
+              <input type="text" placeholder="CVC..." />
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="checkout-summary-wrapper">
+              <h2 class="order-title">Order</h2>
+              <div class="checkout-summary">
+                <div class="order-item">
+                  <img src="images/Fancy.jpg" alt="Fancy Jacket" />
+
+                  <div>
+                    <p><strong>Fancy Jacket</strong></p>
+                    <p>Size: M</p>
+                    <p>Color: n/a</p>
+                  </div>
+
+                  <div class="order-right">
+                    <p>500 kr</p>
+                    <div class="quantity">
+                      <span>-</span>
+                      <span>2</span>
+                      <span>+</span>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="subtotal">Subtotal 1000 kr</p>
+              </div>
+
+              <a href="success.html" class="btn">Complete Purchase</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <h2>Contact</h2>
+        <h2>Socials</h2>
+      </footer>
+    </div>
+  </body>
+</html>
