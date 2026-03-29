@@ -73,7 +73,7 @@ header {
 
 /* HERO */
 .hero {
-  background-image: url("../images/hero.jpg");
+  background-image: url("../images/Hero.jpg");
   background-size: cover;
   background-position: right center;
   min-height: 500px;
